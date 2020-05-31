@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DOM Manipulation 07</title>
+
+    <!-------------------Bootstrap CSS files--------------------->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="../bootstrap/css/font-awesome-5.8.1.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="../bootstrap/css/style.css">
+
+    <link rel="stylesheet" href="../myStyle.css">
+
+    <style>
+        .card, .card-body{
+            box-shadow: 0 0 10px gray;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<!---------------------Code Start here--------------------------------->
+<nav class="navbar navbar-dark bg-dark mb-3">
+    <a href="#" class="navbar-brand">Digital Watches</a>
+</nav>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4">
+        <div class="card">
+            <div class="card-body bg-success text-white text-center">
+            <h5>Asia/Kolkata</h5>
+                <h4></h4>
+                <h4 class="display-4">India</h4>
+                <p id="indian-date">25/04/2020</p>
+                <h4 id="indian-time" class="display-4">10:00:00 PM</h4>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body bg-danger text-white text-center">
+                    <h5>America/New_York</h5>
+                   <h4 class="display-4">USA</h4>
+                    <p id="usa-date">25/04/2020</p>
+                    <h4 id="usa-time" class="display-4">10:00:00 PM</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body bg-warning text-white text-center">
+                    <h5>Asia/Shanghai</h5>
+                    <h4></h4>
+                    <h4 class="display-4">China</h4>
+                    <p id="china-date">25/04/2020</p>
+                    <h4 id="china-time" class="display-4">10:00:00 PM</h4>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+<!-------------------Bootstrap JS files--------------------->
+<script src="../bootstrap/js/jquery.js"></script>
+<script src="../bootstrap/js/popper.js"></script>
+<script src="../bootstrap/js/bootstrap.js"></script>
+<script src="../bootstrap/js/mdb.js"></script>
+
+<script src="../08_JS_DOM_Digital%20Watches/myScript.js"></script>
+
+
+</body>
+</html>
